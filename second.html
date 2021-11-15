@@ -11,13 +11,11 @@
 
     <link rel="stylesheet" href="styles.css">
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
     <title>Vihertyo</title>
-    <meta charset="utf-8">  
 
 </head>
 
@@ -51,60 +49,8 @@
         </div>
         </div>
     </nav>
-    
-    <div class="w3-content w3-display-container">
-        <img class="mySlides"
-            src="kuva1.jpg"
-            style="width:80%" height="auto">
-        <img class="mySlides"
-            src="kuva2.jpg"
-            style="width:80%" height="auto">
-        <img class="mySlides"
-            src="kuva3.jpg"
-            style="width:80%" height="auto">
-        <img class="mySlides"
-            src="kuva4.jpg"
-            style="width:80%" height="auto">
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    
-    </div>
-    <br><br>
-    <div class="container">
 
-        <p>Vihertyö Oy on uusi (vuonna 2020) Päijät-Hämeen alueella toimiva
-            viherrakentamista ja puutarhanhoitoa tarjoava yritys. </p>
 
-    </div>
-    
-
-        <div class="footer">
-
-            <p>Vihertyö Oy &nbsp;&nbsp;&nbsp;puh.123456789<br>
-                <a href="mailto:esimerkki@vihertyo.fi">erkkiesimerkki@vihertyo.fi</a></p>
-            
-
-        </div>
-
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-    </script>
 
 </body>
 
