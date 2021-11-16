@@ -1,0 +1,39 @@
+    body {
+	    background-color: cornsilk;
+    }
+
+	.footer {
+		text-align: center;
+		background-color: #DEB887;
+		position: fixed;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+	}
+
+	.container {
+		text-align: center;
+		font-family: garamond, serif;
+		font-size: 120%;
+		font-weight: bold;
+	}
+
+	.lista {
+		background-color: cornsilk;
+		list-style-type: square;
+	}
+
+	.col-sm-5 {
+		margin-top: 30px;
+		max-width: 455px;
+		
+	}
+
+	.col-sm-6 {
+		margin-top: 30px;
+	}
+
+	.li {
+		text-align: left;
+	}
+

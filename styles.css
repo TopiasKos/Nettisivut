@@ -2,7 +2,21 @@ body {
 	background-color: cornsilk;
 }
 
-  ul {
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar + .w3-content {
+	padding-top: 100px;
+}
+
+.navbar + .container {
+	padding-top: 80px;
+}
+
+  .navbar-nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -13,7 +27,7 @@ body {
 	top: 0;
   }
   
-  li {
+  .nav-item {
 	  margin-left: 20px;
 	  padding: 10px;
 	float: left;
@@ -43,9 +57,9 @@ body {
 		padding-bottom: 15px;
 	}
 
-	.row {
+	/*.row {
 		background-color: rgb(30, 36, 43);
-	}
+	}*/
 
 	.logo {
 		margin-top: 20px;
@@ -70,3 +84,21 @@ body {
 		font-size: 120%;
 		font-weight: bold;
 	}
+
+	.lista {
+		background-color: cornsilk;
+		list-style-type: square;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.col-sm-6 {
+		margin-top: 30px;
+	}
+
+	.list {
+		padding-top: 10px;
+	}
+
+
+
