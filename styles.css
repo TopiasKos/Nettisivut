@@ -52,7 +52,7 @@ body {
 	  display:block;
 	  margin-left: auto;
 	  margin-right: auto;
-	  padding: 5px;
+	  padding: 1px;
 	}
 
 	.nav-item {
@@ -155,3 +155,57 @@ body {
 			margin-left: 5%;
 		}
 	}	
+
+	@media screen and (max-width:570px) {
+		#logo {
+			display: none;
+		}
+	}
+
+	#boxi {
+		border-style:ridge;
+		background-color: antiquewhite;
+		width: 70%;
+		text-align: center;
+	}
+
+	.kuvat {
+		margin-top: 100px;
+	}
+
+	/*.col-sm-4 {
+		margin-left: 5px;
+	}
+
+
+
+	<div class="container">
+
+        <div class="row" id="kuvat">
+
+            <div class="col-sm-4">
+                <img src="kuva11.jpg" alt="kuva11" height="65%" width="auto">
+            </div>
+            <div class="col-sm-4">
+                <img src="kuva12.jpg" alt="kuva12" height="65%" width="auto">
+            </div>
+            <div class="col-sm-4">
+                <img src="kuva13.jpg" alt="kuva13" height="65%" width="auto">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-4" id="kuvat">
+                <img src="kuva14.jpg" alt="kuva14" height="65%" width="auto">
+            </div>
+            <div class="col-sm-4">
+                <img src="kuva15.jpg" alt="kuva15" height="65%" width="auto">
+            </div>
+            <div class="col-sm-4">
+                <img src="kuva16.jpg" alt="kuva16" height="65%" width="auto">
+            </div>
+        </div>
+
+    </div>
+	
