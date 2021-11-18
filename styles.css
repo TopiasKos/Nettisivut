@@ -8,6 +8,8 @@ body {
 	width: 100%;
 }
 
+
+
 .navbar + .w3-content {
 	padding-top: 100px;
 }
@@ -79,7 +81,7 @@ body {
 	}
 
 	.container {
-		text-align: center;
+		/*text-align: center;*/
 		font-family: garamond, serif;
 		font-size: 120%;
 		font-weight: bold;
@@ -100,5 +102,56 @@ body {
 		padding-top: 10px;
 	}
 
+	h2 {
+		padding-left: 18%;
+	}
+
+	#kuva7 {
+		width: 80%; 
+		height: 20%;
+		padding-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#box1	{
+		margin-top: 10%;
+		border-style: solid;
+		background-color: cornsilk;
+	}
+
+	#box2	{
+		margin-top: 10%;
+		border-style: solid;
+		background-color: cornsilk;
+	}
+
+	#box3	{
+		
+		margin-top: 10%;
+		border-style: solid;
+		background-color: cornsilk;
+	}
 
 
+	#tietolaatikko {
+		background-image: url("kuva7.jpg");
+		margin-top: 6.5%;
+		background-repeat: no-repeat;
+		background-size: 100% 80%;
+		
+	}
+
+	@media screen and (min-width:400px) {
+		#tietolaatikko {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width:800px) {
+		#box1, #box2, #box3 {
+			width: 90%;
+			margin-left: 5%;
+		}
+	}	
