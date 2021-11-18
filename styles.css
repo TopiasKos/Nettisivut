@@ -135,14 +135,14 @@ body {
 	}
 
 
-	#tietolaatikko {
+	/*#tietolaatikko {
 		background-image: url("kuva7.jpg");
 		margin-top: 6.5%;
 		background-repeat: no-repeat;
 		background-size: 100% 80%;
 		
 	}
-
+*/
 	@media screen and (min-width:400px) {
 		#tietolaatikko {
 			width: 100%;
