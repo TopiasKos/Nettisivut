@@ -220,7 +220,15 @@ body {
 		  padding-top: 100px;
 	  }
 
-	  
+
+	  .taulukko {
+		  padding-top: 100px;
+		  padding-left: 20px;
+	  }
+
+	p {
+		text-align: center;
+	}
 	/*.col-sm-4 {
 		margin-left: 5px;
 	}
