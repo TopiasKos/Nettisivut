@@ -121,18 +121,18 @@ body {
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
-		transition: 0.7s;
+		transition: 0.3s;
 	}
 
 	#box2	{
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
-		transition: 0.7s;
+		transition: 0.3s;
 	}
 
 	#box3	{
-		transition: 0.7s;
+		transition: 0.3s;
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
@@ -246,20 +246,19 @@ body {
 
 	#kuva5:hover {
 		filter: grayscale(60%);
-		transition: 1s;
+		transition: 0.4s;
 	}
 
 	#kuva6:hover {
 		filter: sepia(60%);
-		transition: 1s;
 	}
 
 	#kuva5 {
-		transition: 1s;
+		transition: 0.5s;
 	}
 
 	#kuva6 {
-		transition: 1s;
+		transition: 0.5s;
 	}
 
 	/*.col-sm-4 {
