@@ -44,6 +44,7 @@ body {
   
   li a:hover {
 	background-color: #DEB887;
+	transition: 0.6s;
   }
 
 
@@ -53,6 +54,7 @@ body {
 	  margin-left: auto;
 	  margin-right: auto;
 	  padding: 1px;
+	  transition: 1s;
 	}
 
 	.nav-item {
@@ -119,22 +121,34 @@ body {
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
+		transition: 0.7s;
 	}
 
 	#box2	{
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
+		transition: 0.7s;
 	}
 
 	#box3	{
-		
+		transition: 0.7s;
 		margin-top: 10%;
 		border-style: solid;
 		background-color: cornsilk;
 	}
 
+	#box2:hover {
+	background-color: #e5dfc6;
+	}
 
+	#box1:hover {
+		background-color: #e5dfc6;
+		}
+
+	#box3:hover {
+		background-color: #e5dfc6;
+		}
 	/*#tietolaatikko {
 		background-image: url("kuva7.jpg");
 		margin-top: 6.5%;
@@ -229,6 +243,25 @@ body {
 	p {
 		text-align: center;
 	}
+
+	#kuva5:hover {
+		filter: grayscale(60%);
+		transition: 1s;
+	}
+
+	#kuva6:hover {
+		filter: sepia(60%);
+		transition: 1s;
+	}
+
+	#kuva5 {
+		transition: 1s;
+	}
+
+	#kuva6 {
+		transition: 1s;
+	}
+
 	/*.col-sm-4 {
 		margin-left: 5px;
 	}
