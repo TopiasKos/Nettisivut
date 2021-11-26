@@ -61,10 +61,6 @@ body {
 		padding-bottom: 15px;
 	}
 
-	/*.row {
-		background-color: rgb(30, 36, 43);
-	}*/
-
 	.logo {
 		margin-top: 20px;
 	}
@@ -149,14 +145,7 @@ body {
 	#box3:hover {
 		background-color: #e5dfc6;
 		}
-	/*#tietolaatikko {
-		background-image: url("kuva7.jpg");
-		margin-top: 6.5%;
-		background-repeat: no-repeat;
-		background-size: 100% 80%;
-		
-	}
-*/
+
 	@media screen and (min-width:400px) {
 		#tietolaatikko {
 			width: 100%;
@@ -261,49 +250,4 @@ body {
 		transition: 0.5s;
 	}
 
-	/*.col-sm-4 {
-		margin-left: 5px;
-	}
-
-
-
-	<div class="container">
-
-        <div class="row" id="kuvat">
-
-            <div class="col-sm-4">
-                <img src="kuva11.jpg" alt="kuva11" height="65%" width="auto">
-            </div>
-            <div class="col-sm-4">
-                <img src="kuva12.jpg" alt="kuva12" height="65%" width="auto">
-            </div>
-            <div class="col-sm-4">
-                <img src="kuva13.jpg" alt="kuva13" height="65%" width="auto">
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-sm-4" id="kuvat">
-                <img src="kuva14.jpg" alt="kuva14" height="65%" width="auto">
-            </div>
-            <div class="col-sm-4">
-                <img src="kuva15.jpg" alt="kuva15" height="65%" width="auto">
-            </div>
-            <div class="col-sm-4">
-                <img src="kuva16.jpg" alt="kuva16" height="65%" width="auto">
-            </div>
-        </div>
-
-    </div>
 	
-	
-	
-	<div class="kuvat">
-    <img src="kuva11.jpg" alt="kuva11" width="30%">
-    <img src="kuva12.jpg" alt="kuva12" width="30%">
-    <img src="kuva13.jpg" alt="kuva13" width="30%">
-    <img src="kuva14.jpg" alt="kuva14" width="30%">
-    <img src="kuva15.jpg" alt="kuva15" width="30%">
-    <img src="kuva16.jpg" alt="kuva16" width="30%">
-</div>
